@@ -1,0 +1,55 @@
+body {
+	background-color: black;	
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	outline: 5px solid black;
+	margin: auto;
+	font-family: arial;
+	font-variant: small-caps;
+}
+
+img {
+	max-width:  100%;
+	height: auto;
+}
+
+p.navbar {
+	text-align: right;
+	color: white;
+}
+
+button {
+	text-align: center;
+	color: blue;
+	font-size: 30px;
+	font-family: cambria;
+	
+}
+
+a {
+	color: red;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.SitePages {
+	color: white;
+}
+
+p.title {
+	text-align: left;
+	text-decoration: underline;
+	font-variant: normal;
+	font-size: 18px;
+	font-family: Arial;
+	color: white;
+}
+
+table {
+	padding-top: 1px;
+}
