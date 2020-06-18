@@ -1,18 +1,33 @@
-body {
-	background-color: black;	
+
+/*this section is for the navigation bar styling*/
+header{
+	padding: 0;
+	background: turquoise;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+
 }
 nav{
+	font-size: 1.5rem;
 	background: turquoise;
 }
 nav ul{
 	padding-inline-start: 0px;
-	padding-left: 0px;
-	padding-left: 0px;
+	padding: 0;
 	list-style-type: none;
+
 }
 nav li{
 	display: inline-block;
 	position: relative;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+nav a{
+	color: whitesmoke;
+	text-decoration: none;
+	
 }
 
 h1 {
@@ -23,6 +38,12 @@ h1 {
 	margin: auto;
 	font-family: arial;
 	font-variant: small-caps;
+}
+body{
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	
 }
 
 img {
